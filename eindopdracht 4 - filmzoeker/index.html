@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Filmzoeker </title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script defer src="/script/movies.js"></script>
+    <script defer src="/script/script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="/images/filmzoeker-01.svg" alt="logo">
+        <h2>Selecteer op:</h2>
+        <nav class="movieFilter">
+            <input type="radio" id="all" name="filter" value="all">
+            <label for="all">Alle films</label>
+            <input type="radio" id="newest" name="filter" value="newest">
+            <label for="newest">Nieuwste films</label>
+            <input type="radio" id="avengers" name="filter" value="avengers">
+            <label for="avengers">Avengers</label>
+            <input type="radio" id="x-men" name="filter" value="x-men">
+            <label for="x-men">X-Men</label>
+            <input type="radio" id="princess" name="filter" value="princess">
+            <label for="princess">Prinsessen</label>
+            <input type="radio" id="batman" name="filter" value="batman">
+            <label for="batman">Batman</label>
+        </nav>
+        <input type="text" id="searchbar" name="search" placeholder="Zoek in titel">
+    </header>
+
+    <main class="main">
+        <ul id="posterUl">
+        </ul>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+@import "./constants";
+
+.main   {
+margin: auto;
+display: flex;
+flex-direction: column;
+}
+
+.logo{
+    float: left;
+   width: 100%;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+li{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+img{
+    height: 200px;
+    display: flex;
+}
+
+label{
+    padding: 10px;
+}
+
+.movieFilter{
+margin: 10px;
+padding: 10px;
+}
+
+#searchbar{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #f8fafe;
+    color: #000 ;
+    
+}
